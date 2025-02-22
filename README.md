@@ -44,10 +44,14 @@ Resumo do pedido, permitindo que o cliente revise e finalize a compra.
 1. Instale as dependências:  
    ```sh
    npm install
+   
 2.Configure o banco de dados no arquivo .env.
 
-3. Inicie o servidor de desenvolvimento:  
+3. Inicie o servidor de desenvolvimento:
+   ```sh
    `npm run dev`
-4. Acesse o projeto no navegador:  
+   
+5. Acesse o projeto no navegador:
+    ```sh  
    [http://localhost:3000](http://localhost:3000)
 
