@@ -1,6 +1,6 @@
 # 🍔 Sistema de Autoatendimento para Restaurantes 🍟
 
-Este projeto é um sistema de autoatendimento para restaurantes, inspirado nos tótens encontrados no McDonald's e Burger King, além de versões mobile para facilitar os pedidos. Com o uso de tecnologias modernas, buscamos proporcionar uma experiência intuitiva e eficiente, permitindo que os clientes façam seus pedidos de maneira independente e prática. 📱🍽️
+Este projeto é um sistema de autoatendimento para restaurantes, inspirado nos tótens encontrados no McDonald's e Burger King, feito para versões mobile para facilitar os pedidos. Com o uso de tecnologias modernas, busquei proporcionar uma experiência intuitiva e eficiente, permitindo que os clientes façam seus pedidos de maneira independente e prática. 📱🍽️
 
 ## 🌐 Acesso Online
 
@@ -51,4 +51,3 @@ Resumo do pedido, permitindo que o cliente revise e finalize a compra.
 4. Acesse o projeto no navegador:  
    [http://localhost:3000](http://localhost:3000)
 
-Esse formato é mais dinâmico e visualmente atrativo! 😊
