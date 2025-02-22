@@ -50,7 +50,7 @@ Resumo do pedido, permitindo que o cliente revise e finalize a compra.
 
 3. Inicie o servidor de desenvolvimento:
    ```sh
-   `npm run dev`
+   npm run dev
    
 5. Acesse o projeto no navegador:
     ```sh  
