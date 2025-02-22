@@ -41,6 +41,7 @@ Resumo do pedido, permitindo que o cliente revise e finalize a compra.
 
 3. Inicie o servidor de desenvolvimento:  
    `npm run dev`
-4. Acesse o projeto no navegador:  [https://mc-donalds-diogosns.vercel.app/fsw-donalds](https://mc-donalds-diogosns.vercel.app/fsw-donalds]
+4. Acesse o projeto no navegador:  
+   [http://localhost:3000](http://localhost:3000)
 
 Esse formato é mais dinâmico e visualmente atrativo! 😊
