@@ -2,6 +2,13 @@
 
 Este projeto é um sistema de autoatendimento para restaurantes, inspirado nos tótens encontrados no McDonald's e Burger King, além de versões mobile para facilitar os pedidos. Com o uso de tecnologias modernas, buscamos proporcionar uma experiência intuitiva e eficiente, permitindo que os clientes façam seus pedidos de maneira independente e prática. 📱🍽️
 
+## 🌐 Acesso Online
+
+Acesse o projeto diretamente na versão online:  
+[https://mc-donalds-diogosns.vercel.app/fsw-donalds](https://mc-donalds-diogosns.vercel.app/fsw-donalds)
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 - **Next.js** - Framework React para desenvolvimento do frontend ⚛️
