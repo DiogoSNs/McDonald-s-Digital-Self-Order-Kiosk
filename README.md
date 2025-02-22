@@ -44,8 +44,9 @@ Resumo do pedido, permitindo que o cliente revise e finalize a compra.
 1. Instale as dependências:  
    ```sh
    npm install
-   
-2.Configure o banco de dados no arquivo .env.
+2. Configure o banco de dados no arquivo:  
+   ```sh
+   .env
 
 3. Inicie o servidor de desenvolvimento:
    ```sh
