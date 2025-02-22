@@ -27,7 +27,7 @@ Acesse o projeto diretamente na versão online:
 ![Página Inicial](imagensReadme/1.jpg)  
 
 
-##Tela inicial do restaurante, onde o usuário pode iniciar o processo de pedido.
+## Tela inicial do restaurante, onde o usuário pode iniciar o processo de pedido.
 
 ### 🍕 Catálogo de Produtos
 
@@ -35,7 +35,7 @@ Acesse o projeto diretamente na versão online:
 ![Catálogo](imagensReadme/2.jpg)  
 
 
-##Listagem dos itens disponíveis no restaurante, organizados por categoria para facilitar a navegação.
+## Listagem dos itens disponíveis no restaurante, organizados por categoria para facilitar a navegação.
 
 ### 🛒 Itens Selecionados
 
@@ -43,7 +43,7 @@ Acesse o projeto diretamente na versão online:
 ![Itens Selecionados](imagensReadme/3.jpg)  
 
 
-##Tela que exibe os itens escolhidos pelo cliente antes de concluir o pedido.
+## Tela que exibe os itens escolhidos pelo cliente antes de concluir o pedido.
 
 ### 🧾 Carrinho do Cliente
 
@@ -51,7 +51,7 @@ Acesse o projeto diretamente na versão online:
 ![Carrinho](imagensReadme/4.jpg)  
 
 
-##Resumo do pedido, permitindo que o cliente revise e finalize a compra.
+## Resumo do pedido, permitindo que o cliente revise e finalize a compra.
 
 ## ⚙️ Instalação e Uso
 
