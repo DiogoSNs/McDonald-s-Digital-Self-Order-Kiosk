@@ -27,7 +27,8 @@ Acesse o projeto diretamente na versão online:
 ![Página Inicial](imagensReadme/1.jpg)  
 
 
-Tela inicial do restaurante, onde o usuário pode iniciar o processo de pedido.
+Tela inicial do restaurante, onde o usuário pode iniciar o processo de pedido. 
+
 ---
 
 ### 🍕 Catálogo de Produtos
@@ -37,6 +38,7 @@ Tela inicial do restaurante, onde o usuário pode iniciar o processo de pedido.
 
 
 Listagem dos itens disponíveis no restaurante, organizados por categoria para facilitar a navegação.
+
 ---
 
 ### 🛒 Itens Selecionados
@@ -46,6 +48,7 @@ Listagem dos itens disponíveis no restaurante, organizados por categoria para f
 
 
 Tela que exibe os itens escolhidos pelo cliente antes de concluir o pedido.
+
 ---
 
 ### 🧾 Carrinho do Cliente
@@ -55,6 +58,7 @@ Tela que exibe os itens escolhidos pelo cliente antes de concluir o pedido.
 
 
 Resumo do pedido, permitindo que o cliente revise e finalize a compra.
+
 ---
 
 ## ⚙️ Instalação e Uso
