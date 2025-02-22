@@ -45,7 +45,7 @@ sh
 Copiar
 Editar
 npm run dev
-Acesse o projeto no navegador: http://localhost:3000
+Acesse o projeto no navegador: [http://localhost:3000](http://localhost:3000/fsw-donalds)
 
 nginx
 Copiar
