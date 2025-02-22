@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍔 Sistema de Autoatendimento para Restaurantes 🍟
 
-## Getting Started
+Este projeto é um sistema de autoatendimento para restaurantes, inspirado nos tótens encontrados no McDonald's e Burger King, além de versões mobile para facilitar os pedidos. Com o uso de tecnologias modernas, buscamos proporcionar uma experiência intuitiva e eficiente, permitindo que os clientes façam seus pedidos de maneira independente e prática. 📱🍽️
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
 
-```bash
+- **Next.js** - Framework React para desenvolvimento do frontend ⚛️
+- **TypeScript** - Tipagem estática para maior segurança e robustez no código 🔒
+- **Figma** - Protótipos e design do sistema 🎨
+- **Prisma** - ORM para facilitar o gerenciamento do banco de dados 💾
+- **NeonDB** - Banco de dados PostgreSQL em nuvem ☁️
+- **PostgreSQL** - Banco de dados relacional para armazenamento seguro 🔐
+- **Tailwind CSS** - Estilização moderna e responsiva para um design clean 💅
+
+## 🔍 Visão Geral do Sistema
+
+### 🏠 Página Inicial
+![Página Inicial](imagensRead/1.png)  
+Tela inicial do restaurante, onde o usuário pode iniciar o processo de pedido.
+
+### 🍕 Catálogo de Produtos
+![Catálogo](imagensRead/2.png)  
+Listagem dos itens disponíveis no restaurante, organizados por categoria para facilitar a navegação.
+
+### 🛒 Itens Selecionados
+![Itens Selecionados](imagensRead/3.png)  
+Tela que exibe os itens escolhidos pelo cliente antes de concluir o pedido.
+
+### 🧾 Carrinho do Cliente
+![Carrinho](imagensRead/4.png)  
+Resumo do pedido, permitindo que o cliente revise e finalize a compra.
+
+## ⚙️ Instalação e Uso
+
+### 🏃‍♂️ Como rodar o projeto
+
+1. Instale as dependências:  
+   ```sh
+   npm install
+Configure o banco de dados no arquivo .env.
+
+Inicie o servidor de desenvolvimento:
+
+sh
+Copiar
+Editar
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acesse o projeto no navegador: http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+nginx
+Copiar
+Editar
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Esse formato é mais dinâmico e visualmente atrativo! 😊
