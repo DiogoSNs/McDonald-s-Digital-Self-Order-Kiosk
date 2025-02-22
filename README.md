@@ -53,5 +53,5 @@ Resumo do pedido, permitindo que o cliente revise e finalize a compra.
    
 5. Acesse o projeto no navegador:
     ```sh  
-   [http://localhost:3000](http://localhost:3000)
+   http://localhost:3000
 
