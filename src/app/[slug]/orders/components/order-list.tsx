@@ -66,12 +66,14 @@ const OrderList = ({ orders }: OrderListProps) => {
               <div className="relative h-5 w-5">
                 <Image
                   src={order.restaurant.avatarImageUrl}
-                  alt={order.restaurant.name}
+                    alt={order.restaurant.name.replace(/FSW Donalds/gi, "Didi Donald's")}
                   className="rounded-sm"
                   fill
                 />
               </div>
-              <p className="text-sm font-semibold">{order.restaurant.name}</p>
+                <p className="text-sm font-semibold">
+                  {order.restaurant.name.replace(/FSW Donalds/gi, "Didi Donald's")}
+                </p>
             </div>
             <Separator />
             <div className="space-y-2">

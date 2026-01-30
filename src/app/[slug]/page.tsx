@@ -11,23 +11,26 @@ interface RestaurantPageProps {
 
 const RestaurantPage = async ({ params }: RestaurantPageProps) => {
   const { slug } = await params;
-  const restaurant = await db.restaurant.findUnique({ where: { slug } });
+  const restaurant =
+    (await db.restaurant.findUnique({ where: { slug } })) ||
+    (slug === "didi-donalds"
+      ? await db.restaurant.findUnique({ where: { slug: "fsw-donalds" } })
+      : null);
   if (!restaurant) {
     return notFound();
   }
+  const displayName = restaurant.name.replace(/FSW Donalds/gi, "Didi Donald's");
   return (
     <div className="flex h-screen flex-col items-center justify-center px-6 pt-24">
-      {/* LOGO E TITULO */}
       <div className="flex flex-col items-center gap-2">
         <Image
           src={restaurant.avatarImageUrl}
-          alt={restaurant.name}
+          alt={displayName}
           width={82}
           height={82}
         />
-        <h2 className="font-semibold">{restaurant.name}</h2>
+        <h2 className="font-semibold">{displayName}</h2>
       </div>
-      {/* BEM VINDO */}
       <div className="space-y-2 pt-24 text-center">
         <h3 className="text-2xl font-semibold">Seja bem-vindo!</h3>
         <p className="opacity-55">

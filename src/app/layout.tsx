@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "FSW Donalds",
+  title: "Didi Donald's",
   description: "Bora finalizar esse projeto lindo!",
 };
 

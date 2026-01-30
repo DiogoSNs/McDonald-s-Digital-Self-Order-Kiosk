@@ -23,14 +23,17 @@ const RestaurantMenuPage = async ({
   if (!isConsumptionMethodValid(consumptionMethod)) {
     return notFound();
   }
-  const restaurant = await db.restaurant.findUnique({
-    where: { slug },
-    include: {
-      menuCategories: {
-        include: { products: true },
-      },
-    },
-  });
+  const restaurant =
+    (await db.restaurant.findUnique({
+      where: { slug },
+      include: { menuCategories: { include: { products: true } } },
+    })) ||
+    (slug === "didi-donalds"
+      ? await db.restaurant.findUnique({
+          where: { slug: "fsw-donalds" },
+          include: { menuCategories: { include: { products: true } } },
+        })
+      : null);
   if (!restaurant) {
     return notFound();
   }
