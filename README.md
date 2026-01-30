@@ -5,7 +5,7 @@ Este projeto é um sistema de autoatendimento para restaurantes, inspirado nos t
 ## 🌐 Acesso Online
 
 Acesse o projeto diretamente na versão online:  
-[https://mc-donalds-diogosns.vercel.app/fsw-donalds](https://mc-donalds-diogosns.vercel.app/fsw-donalds)
+[https://mc-donalds-diogosns.vercel.app/didi-donalds](https://mc-donalds-diogosns.vercel.app/didi-donalds)
 
 ---
 
