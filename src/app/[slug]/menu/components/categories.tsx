@@ -44,12 +44,14 @@ const RestaurantCategories = ({ restaurant }: RestaurantCategoriesProps) => {
         <div className="flex items-center gap-3">
           <Image
             src={restaurant.avatarImageUrl}
-            alt={restaurant.name}
+            alt={restaurant.name.replace(/FSW Donalds/gi, "Didi Donald's")}
             height={45}
             width={45}
           />
           <div>
-            <h2 className="text-lg font-semibold">{restaurant.name}</h2>
+            <h2 className="text-lg font-semibold">
+              {restaurant.name.replace(/FSW Donalds/gi, "Didi Donald's")}
+            </h2>
             <p className="text-xs opacity-55">{restaurant.description}</p>
           </div>
         </div>

@@ -54,13 +54,13 @@ const ProductDetails = ({ product }: ProductDetailsProps) => {
           <div className="flex items-center gap-1.5">
             <Image
               src={product.restaurant.avatarImageUrl}
-              alt={product.restaurant.name}
+              alt={product.restaurant.name.replace(/FSW Donalds/gi, "Didi Donald's")}
               width={16}
               height={16}
               className="rounded-full"
             />
             <p className="text-xs text-muted-foreground">
-              {product.restaurant.name}
+              {product.restaurant.name.replace(/FSW Donalds/gi, "Didi Donald's")}
             </p>
           </div>
 
