@@ -20,11 +20,15 @@ interface CreateOrderInput {
 }
 
 export const createOrder = async (input: CreateOrderInput) => {
-  const restaurant = await db.restaurant.findUnique({
-    where: {
-      slug: input.slug,
-    },
-  });
+  const restaurant =
+    (await db.restaurant.findUnique({
+      where: { slug: input.slug },
+    })) ||
+    (input.slug.toLowerCase() === "didi-donalds"
+      ? await db.restaurant.findUnique({
+          where: { slug: "fsw-donalds" },
+        })
+      : null);
   if (!restaurant) {
     throw new Error("Restaurant not found");
   }

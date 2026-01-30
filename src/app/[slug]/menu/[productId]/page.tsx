@@ -26,9 +26,11 @@ const ProductPage = async ({ params }: ProductPageProps) => {
   if (!product) {
     return notFound();
   }
-  if (product.restaurant.slug.toUpperCase() !== slug.toUpperCase()) {
-    return notFound();
-  }
+  const matchesSlug =
+    product.restaurant.slug.toLowerCase() === slug.toLowerCase() ||
+    (slug.toLowerCase() === "didi-donalds" &&
+      product.restaurant.slug.toLowerCase() === "fsw-donalds");
+  if (!matchesSlug) return notFound();
   return (
     <div className="flex h-full flex-col">
       <ProductHeader product={product} />
